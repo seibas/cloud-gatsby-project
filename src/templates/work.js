@@ -39,6 +39,7 @@ export const query = graphql`
       seoMetaTags {
         ...GatsbyDatoCmsSeoMetaTags
       }
+      date
       title
       excerpt
       gallery {
