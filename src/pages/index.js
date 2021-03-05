@@ -36,6 +36,7 @@ export const query = graphql`
       edges {
         node {
           id
+          data
           title
           slug
           excerpt
